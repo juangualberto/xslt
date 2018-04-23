@@ -43,7 +43,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <configuration>
                     <mainClass>com.iesvdc.dam.lmsgi.Xslt</mainClass>
-                    <arguments>plant_catalog.xml,hoja_transformacion.xsl</arguments>
+                    <arguments>cd_catalog.xml,cd_catalog.xsl,cd_catalog.html</arguments>
                 </configuration>
             </plugin>
         </plugins>
